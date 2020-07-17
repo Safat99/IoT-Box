@@ -1,0 +1,140 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "RELAY_G5RL1AELN24DC"
+      (family "ANA")
+      (package "RELAY_G5RL1AELN24DC")
+      (attribute "PKG_TYPE" "RELAY_G5RL1AELN24DC")
+    )
+    (package "RELAY_G5RL1AELN24DC"
+      (units THOU)
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -582.68 250.0) (pt -582.68 -250.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -582.68 -250.0) (pt 559.06 -250.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 559.06 -250.0) (pt 559.06 250.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 559.06 250.0) (pt -582.68 250.0))
+        )
+        (graphic
+          (stroke 15.75)
+          (fill NONE)
+          (circle (pt -500 -147.64) (pt -484.25 -147.64))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -582.68 250.0) (pt -582.68 -250.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -582.68 -250.0) (pt 559.06 -250.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 559.06 -250.0) (pt 559.06 250.0))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 559.06 250.0) (pt -582.68 250.0))
+        )
+        (graphic
+          (stroke 15.75)
+          (fill NONE)
+          (circle (pt -620.47 -147.64) (pt -604.72 -147.64))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -592.52 259.84) (pt -592.52 -259.84))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -592.52 -259.84) (pt 568.9 -259.84))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 568.9 -259.84) (pt 568.9 259.84))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 568.9 259.84) (pt -592.52 259.84))
+        )
+      )
+      (leg 1 (pt -492.13 -147.64) (padstack 1))
+      (leg 3 (pt 295.28 -147.64) (padstack 2))
+      (leg 4 (pt 492.13 -147.64) (padstack 3))
+      (leg 5 (pt 492.13 147.64) (padstack 4))
+      (leg 6 (pt 295.28 147.64) (padstack 5))
+      (leg 8 (pt -492.13 147.64) (padstack 6))
+      (padstack 1
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (square 76.77))
+        (pad (layer INNER) (square 76.77))
+        (pad (layer BCOP) (square 76.77))
+        (pad (layer TRES) (square 76.77))
+        (pad (layer BRES) (square 76.77))
+      )
+      (padstack 2
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 38.39))
+        (pad (layer BRES) (round 38.39))
+      )
+      (padstack 3
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 38.39))
+        (pad (layer BRES) (round 38.39))
+      )
+      (padstack 4
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 38.39))
+        (pad (layer BRES) (round 38.39))
+      )
+      (padstack 5
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 38.39))
+        (pad (layer BRES) (round 38.39))
+      )
+      (padstack 6
+        (hole 51)
+        (plated true)
+        (pad (layer TCOP) (round 76.77))
+        (pad (layer INNER) (round 76.77))
+        (pad (layer BCOP) (round 76.77))
+        (pad (layer TRES) (round 38.39))
+        (pad (layer BRES) (round 38.39))
+      )
+    )
+  )
+)

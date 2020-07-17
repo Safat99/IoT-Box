@@ -1,0 +1,99 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TMB12A05"
+   (description "12*9.5 Buzzers RoHS")
+   (family "ANA")
+   (package "TMB12A05")
+   (attribute "Datasheet Link" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-TMB12A05_C96093.pdf")
+   (attribute "Geometry.Height" "9.5mm")
+   (attribute "Manufacturer_Name" "Jiangsu Huaneng Elec")
+   (attribute "Manufacturer_Part_Number" "TMB12A05")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (gate
+    (symbol "TMB12A05")
+    (pin "+" 1 PS)
+    (pin "-" 2 PS)
+   )
+  )
+  (symbol "TMB12A05"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TMB12A05"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7 10.8)
+      (pt 7 10.8)
+      (pt 7 -3.2)
+      (pt -7 -3.2)
+      (pt -7 10.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -6 3.8)
+      (arc (pt -6.000 3.800) (pt -6.000 -2.200) (pt 6.000 9.800) (start 180.0) (sweep 180.0))
+      (pt 6 3.8)
+      (arc (pt 6.000 3.800) (pt -6.000 -2.200) (pt 6.000 9.800) (start 180.0) (sweep .0))
+      (pt -6 3.8))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6 3.8)
+      (arc (pt -6.000 3.800) (pt -6.000 -2.200) (pt 6.000 9.800) (start 180.0) (sweep 180.0))
+      (pt 6 3.8)
+      (arc (pt 6.000 3.800) (pt -6.000 -2.200) (pt 6.000 9.800) (start 180.0) (sweep .0))
+      (pt -6 3.8))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 0.000 7.600) (padstack 0))
+   (padstack 0
+    (hole 0.8)
+    (plated true)
+    (pad (layer TCOP) (round 1.300))
+    (pad (layer INNER) (round 1.300))
+    (pad (layer BCOP) (round 1.300))
+   )
+   (model "TMB12A05.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

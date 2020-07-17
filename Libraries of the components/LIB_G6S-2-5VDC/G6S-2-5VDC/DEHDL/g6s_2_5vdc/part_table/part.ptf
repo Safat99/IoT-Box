@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'G6S_2_5VDC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Omron Electronics", "G6S-2-5VDC" (!) = "", "G6S25VDC", "Other", "", "", "", "", "Signal Relay, 5 VDC, DPDT, 2 A, G6S Series, Through Hole, Non Latching", "https://www.ecb.omron.com.cn/product-detail?partId=19056", "9.4 mm"
+END_PART
+
+END.

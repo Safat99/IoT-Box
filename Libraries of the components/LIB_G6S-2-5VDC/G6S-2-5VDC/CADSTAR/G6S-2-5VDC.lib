@@ -1,0 +1,18 @@
+.G6S-2-5VDC :1 ;Signal Relay, 5 VDC, DPDT, 2 A, G6S Series, Through Hole, Non Latching
+G6S25VDC
+*STM K
+*NGS
+*PLB 1="COIL +" 3="NC_1" 4="COM_1" 5="NO_1" 8="NO_2" 9="COM_2" 10="NC_2" 12="COIL -"
+*MXP 8
+*DFN G6S-2-5VDC
+~!Manufacturer_Name (Omron Electronics)
+~!Manufacturer_Part_Number (G6S-2-5VDC)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://www.ecb.omron.com.cn/product-detail?partId=19056)
+~!Height (9.4mm)
+~!3D_Model (G6S-2-5VDC)
+G6S-2-5VDC
+1.1!U 3.1!U 4.1!U 5.1!U 8.1!U 9.1!U 10.1!U 12.1!U 

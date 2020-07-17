@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'R1966ABLKBLKEF'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "E-Switch", "R1966ABLKBLKEF" (!) = "", "R1966ABLKBLKEF", "Other", "612-R1966ABKBKEF", "https://www.mouser.com/Search/Refine.aspx?Keyword=612-R1966ABKBKEF", "", "", "E-SWITCH - R1966ABLKBLKEF - ROCKER SWITCH, SPST, 15A, 125VAC, BLACK", "https://datasheet.lcsc.com/szlcsc/E-Switch-R1966ABLKBLKEF_C273439.pdf", "19.4 mm"
+END_PART
+
+END.

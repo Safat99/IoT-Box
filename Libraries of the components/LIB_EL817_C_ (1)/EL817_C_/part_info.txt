@@ -1,0 +1,9 @@
+Manufacturer=Everlight
+PartNumber=EL817(C)
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=4
+Version=3.1
+Released=2017-03-15 20:03:59
+Downloaded=2020-03-24 21:39:36
+3D=Y

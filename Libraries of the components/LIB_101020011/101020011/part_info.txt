@@ -1,0 +1,9 @@
+Manufacturer=Seeed Studio
+PartNumber=101020011
+PartCategory=Integrated Circuit
+PackageCategory=Header, Vertical
+PinCount=4
+Version=2.1
+Released=2017-10-05 14:36:05
+Downloaded=2020-03-25 12:31:41
+3D=N

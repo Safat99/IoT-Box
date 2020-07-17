@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "101020011"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-01-01-16:50:43)
+    (mountForm default
+        (footprintRef "HDRV4W80P0X254_1X4_1200X500X1550P")
+        (spec "System")
+    )
+)

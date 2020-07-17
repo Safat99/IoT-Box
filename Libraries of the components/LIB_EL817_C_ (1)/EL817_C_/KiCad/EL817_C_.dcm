@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EL817_C_
+D Transistor Output Optocouplers Optocoupler Transistor DC Input
+K
+F https://componentsearchengine.com/Datasheets/1/EL817(C).pdf
+$ENDCMP
+#
+#End Doc Library

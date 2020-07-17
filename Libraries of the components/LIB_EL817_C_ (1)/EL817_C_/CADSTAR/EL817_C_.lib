@@ -1,0 +1,18 @@
+.EL817_C_ :1 ;Transistor Output Optocouplers Optocoupler Transistor DC Input
+DIP762W60P254L458H480Q4N
+*STM IC
+*NGS
+*PLB 1="ANODE" 2="CATHODE" 3="EMITTER" 4="COLLECTOR"
+*MXP 4
+*DFN EL817_C_
+~!Manufacturer_Name (Everlight)
+~!Manufacturer_Part_Number (EL817(C))
+~!Mouser Part Number (638-EL817C)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=638-EL817C)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/EL817(C).pdf)
+~!Height (4.8mm)
+~!3D_Model (EL817_C_)
+EL817_C_
+1.1!U 2.1!U 4.1!U 3.1!U 

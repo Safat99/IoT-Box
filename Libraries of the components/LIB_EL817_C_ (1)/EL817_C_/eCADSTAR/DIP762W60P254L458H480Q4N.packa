@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EL817_C_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-06-09-13:16:26)
+    (mountForm default
+        (footprintRef "DIP762W60P254L458H480Q4N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP G6S-2-5VDC
+D Signal Relay, 5 VDC, DPDT, 2 A, G6S Series, Through Hole, Non Latching
+K
+F https://www.ecb.omron.com.cn/product-detail?partId=19056
+$ENDCMP
+#
+#End Doc Library

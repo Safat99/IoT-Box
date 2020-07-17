@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PHEONIX-5_08PITCH-2PIN"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PHEONIX-5_08PITCH-2PIN")
+        (spec "default")
+    )
+)

@@ -1,0 +1,124 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "HLKPM01"
+      (family "ANA")
+      (package "HLKPM01")
+      (description "HI-LINK_Ultra-compact_power_module_HLK-PM01<p>_<ul>_<li>Meet_UL,_CE_requirements</li>_<li>Ultra-thin,_ultra-small</li>_<li>All_voltage_input_(AC:_90_~_264V)</li>_<li>Low_ripple_and_low_noise</li>_<li>Output_overload_and_short_circuit_protection</li>_<li>High_efficiency,_high_power_density</li>_<li>The_product_is_designed_to_meet_the_requirements_of_EMC_and_Safety_Test</li>_<li>Low_power_consumption,_environmental_protection,_no-load_loss_<0.1W</li>_<li>100%_load_aging_and_testing</li>")
+      (attribute "PKG_TYPE" "HLKPM01")
+      (gate
+        (swap 1)
+        (symbol "HLKPM01")
+        (pin "AC1" P$1 (type IP))
+        (pin "AC2" P$2 (type IP))
+        (pin "VO+" P$4 (type PP))
+        (pin "VO-" P$3 (type PP))
+      )
+    )
+    (symbol "HLKPM01"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -300 300) (pt 300 300) (pt 300 -300) (pt -300 -300) (pt -300 300) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -500.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -500.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 500.0 200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 500.0 -200.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (package "HLKPM01"
+      (units THOU)
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -669.29 -397.64) (pt -669.29 397.64))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 669.29 -397.64) (pt 669.29 397.64))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -669.29 397.64) (pt 669.29 397.64))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -669.29 -397.64) (pt 669.29 -397.64))
+        )
+      )
+      (leg P$1 (pt -578.74 98.43) (padstack 1))
+      (leg P$2 (pt -578.74 -98.43) (padstack 2))
+      (leg P$3 (pt 578.74 303.15) (padstack 3))
+      (leg P$4 (pt 578.74 -303.15) (padstack 4))
+      (padstack 1
+        (slot 39 39 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer INNER) (ovalf 59.37 118.74 0 0))
+        (pad (layer BCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer TRES) (ovalf 59.37 118.74 0 0))
+        (pad (layer BRES) (ovalf 59.37 118.74 0 0))
+      )
+      (padstack 2
+        (slot 39 39 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer INNER) (ovalf 59.37 118.74 0 0))
+        (pad (layer BCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer TRES) (ovalf 59.37 118.74 0 0))
+        (pad (layer BRES) (ovalf 59.37 118.74 0 0))
+      )
+      (padstack 3
+        (slot 39 39 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer INNER) (ovalf 59.37 118.74 0 0))
+        (pad (layer BCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer TRES) (ovalf 59.37 118.74 0 0))
+        (pad (layer BRES) (ovalf 59.37 118.74 0 0))
+      )
+      (padstack 4
+        (slot 39 39 0 0)
+        (plated true)
+        (pad (layer TCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer INNER) (ovalf 59.37 118.74 0 0))
+        (pad (layer BCOP) (ovalf 59.37 118.74 0 0))
+        (pad (layer TRES) (ovalf 59.37 118.74 0 0))
+        (pad (layer BRES) (ovalf 59.37 118.74 0 0))
+      )
+    )
+  )
+)

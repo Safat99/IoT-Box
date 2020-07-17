@@ -1,0 +1,9 @@
+Manufacturer=Jiangsu Huaneng Elec
+PartNumber=TMB12A05
+PartCategory=Loudspeaker or Buzzer
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2019-12-21 13:51:19
+Downloaded=2020-03-26 09:17:41
+3D=Y

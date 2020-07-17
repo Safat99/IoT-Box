@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EL817_C_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Everlight", "EL817(C)" (!) = "", "DIP762W60P254L458H480Q4N", "Dual-In-Line Packages", "638-EL817C", "https://www.mouser.com/Search/Refine.aspx?Keyword=638-EL817C", "", "", "Transistor Output Optocouplers Optocoupler Transistor DC Input", "https://componentsearchengine.com/Datasheets/1/EL817(C).pdf", "4.8 mm"
+END_PART
+
+END.

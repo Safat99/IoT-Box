@@ -1,0 +1,141 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "CC0601"
+      (family "ANA")
+      (package "CUI_CC0601")
+      (description "Audio_Buzzer_Magnetic_1Vo-p_1.7Vo-p_80mA_1.5Vo-p_70dBA_Pin_Through_Hole")
+      (attribute "PKG_TYPE" "CUI_CC0601")
+      (attribute "MP" "CC-0601")
+      (attribute "AVAILABILITY" "Good")
+      (attribute "PACKAGE" "_CUI")
+      (attribute "DESCRIPTION" "_Audio_Buzzer_Magnetic_1Vo-p_1.7Vo-p_80mA_1.5Vo-p_70dBA_Pin_Through_Hole_")
+      (attribute "MF" "CUI")
+      (attribute "PRICE" "1.19_USD")
+      (gate
+        (swap 1)
+        (symbol "CC0601")
+        (pin "M" M (type PS))
+        (pin "P" P (type PS))
+      )
+    )
+    (symbol "CC0601"
+      (units THOU)
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 50.0) (pt 0.0 50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 50.0) (pt 25.0 50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 25.0 50.0) (pt 25.0 -50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 25.0 -50.0) (pt 0.0 -50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -50.0) (pt -25.0 -50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt -25.0 -50.0) (pt -25.0 50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 25.0 50.0) (pt 75.0 125.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 75.0 125.0) (pt 75.0 -125.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 75.0 -125.0) (pt 25.0 -50.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 50.0) (pt 0.0 100.0))
+      )
+      (graphic
+        (stroke 10.0)
+        (path (pt 0.0 -50.0) (pt 0.0 -100.0))
+      )
+      (terminal
+        (body (symbol "PIN_R90_U_L100") (pt 0.0 -200.0) (rot 0) (mir 0) (visible false))
+        (name (pt 0.0 139.37) (rot 0) (just MIDDLE LEFT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible false))
+      )
+      (terminal
+        (body (symbol "PIN_R270_U_L100") (pt 0.0 200.0) (rot 0) (mir 0) (visible false))
+        (name (pt -0.0 -139.37) (rot 0) (just MIDDLE RIGHT) (visible false))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible false))
+      )
+    )
+    (symbol "PIN_R90_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 0.0 100.0))
+      )
+    )
+    (symbol "PIN_R270_U_L100"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -0.0 -100.0))
+      )
+    )
+    (package "CUI_CC0601"
+      (units THOU)
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt -129.92 0) (pt 129.92 0))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (fill NONE)
+          (circle (pt -129.92 0) (pt 129.92 0))
+        )
+      )
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (fill NONE)
+          (circle (pt -139.76 0) (pt 139.76 0))
+        )
+      )
+      (leg M (pt 62.99 0) (padstack 1))
+      (leg P (pt -62.99 0) (padstack 2))
+      (padstack 1
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 51.5))
+        (pad (layer INNER) (round 51.5))
+        (pad (layer BCOP) (round 51.5))
+        (pad (layer TRES) (round 25.75))
+        (pad (layer BRES) (round 25.75))
+      )
+      (padstack 2
+        (hole 31)
+        (plated true)
+        (pad (layer TCOP) (round 51.5))
+        (pad (layer INNER) (round 51.5))
+        (pad (layer BCOP) (round 51.5))
+        (pad (layer TRES) (round 25.75))
+        (pad (layer BRES) (round 25.75))
+      )
+    )
+  )
+)

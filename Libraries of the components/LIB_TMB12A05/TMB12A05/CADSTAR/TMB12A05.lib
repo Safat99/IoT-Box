@@ -1,0 +1,18 @@
+.TMB12A05 :1 ;12*9.5 Buzzers RoHS
+TMB12A05
+*STM LS
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN TMB12A05
+~!Manufacturer_Name (Jiangsu Huaneng Elec)
+~!Manufacturer_Part_Number (TMB12A05)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-TMB12A05_C96093.pdf)
+~!Height (9.5mm)
+~!3D_Model (TMB12A05)
+TMB12A05
+1.1!U 2.1!U 

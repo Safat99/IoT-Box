@@ -1,0 +1,9 @@
+Manufacturer=E-Switch
+PartNumber=R1966ABLKBLKEF
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2019-09-02 10:34:37
+Downloaded=2020-03-26 10:27:53
+3D=Y

@@ -1,0 +1,20 @@
+.1711725 :1 ;Non-Fused Terminal Block Through Hole, 2 Way, Solder, Nylon, 250 V
+PHEONIX-5.08PITCH-2PIN
+*STM IC
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 1711725
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1711725)
+~!Mouser Part Number (651-1711725)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=651-1711725)
+~!RS Part Number (1895843)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1895843)
+~!Allied_Number (70054425)
+~!Link Allied Price/Stock (http://www.alliedelec.com/phoenix-contact-1711725/70054425/)
+~!Link Datasheet (http://docs-asia.electrocomponents.com/webdocs/1380/0900766b81380186.pdf)
+~!Height (-)
+~!3D_Model (1711725)
+"1711725"
+1.1!U 2.1!U 

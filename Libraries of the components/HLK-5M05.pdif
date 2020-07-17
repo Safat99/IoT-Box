@@ -1,0 +1,171 @@
+;Proteus Design Interchange Format
+
+(PDIF
+  (vendor "Labcenter Electronics")
+  (version 1 0)
+  (library
+    (part "HLK5M05"
+      (family "ANA")
+      (package "CONV_HLK5M05")
+      (description "AC_DC_220V_to_5V_5W_5Watt_Isolated_Switching_Step-Down_Power_Supply_Module_Converter")
+      (attribute "PKG_TYPE" "CONV_HLK5M05")
+      (attribute "STANDARD" "Manufacturer_Recommendations")
+      (attribute "PARTREV" "N/A")
+      (attribute "MANUFACTURER" "HI-LINK")
+      (gate
+        (swap 1)
+        (symbol "HLK5M05")
+        (pin "+VO" 4 (type OP))
+        (pin "-VO" 3 (type OP))
+        (pin "AC1" 1 (type IP))
+        (pin "AC2" 2 (type IP))
+      )
+    )
+    (symbol "HLK5M05"
+      (units THOU)
+      (graphic
+        (stroke 1)
+        (path (pt -300 200) (pt 300 200) (pt 300 -200) (pt -300 -200) (pt -300 200) (closed))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 500.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R180_U_L200") (pt 500.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt -239.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE RIGHT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -500.0 100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+      (terminal
+        (body (symbol "PIN_R0_U_L200") (pt -500.0 -100.0) (rot 0) (mir 0) (visible true))
+        (name (pt 239.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+        (number (pt -39.37 0.0) (rot 0) (just MIDDLE LEFT) (visible true))
+      )
+    )
+    (symbol "PIN_R180_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt -200.0 0.0))
+      )
+    )
+    (symbol "PIN_R0_U_L200"
+      (units THOU)
+      (graphic
+        (stroke 6.5)
+        (path (pt 0.0 0.0) (pt 200.0 0.0))
+      )
+    )
+    (package "CONV_HLK5M05"
+      (units THOU)
+      (layer OCCA
+        (graphic
+          (stroke 1.97)
+          (path (pt -757.87 462.6) (pt 757.87 462.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 757.87 462.6) (pt 757.87 -462.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt 757.87 -462.6) (pt -757.87 -462.6))
+        )
+        (graphic
+          (stroke 1.97)
+          (path (pt -757.87 -462.6) (pt -757.87 462.6))
+        )
+      )
+      (layer TSLK
+        (graphic
+          (stroke 5.0)
+          (path (pt -748.03 452.76) (pt -748.03 -452.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -748.03 -452.76) (pt 748.03 -452.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 748.03 -452.76) (pt 748.03 452.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 748.03 452.76) (pt -748.03 452.76))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -783.46 125.98) (pt -775.59 125.98))
+        )
+      )
+      (layer TASM
+        (graphic
+          (stroke 5.0)
+          (path (pt -748.03 -452.76) (pt 748.03 -452.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 748.03 -452.76) (pt 748.03 452.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt 748.03 452.76) (pt -748.03 452.76))
+        )
+        (graphic
+          (stroke 5.0)
+          (path (pt -748.03 452.76) (pt -748.03 -452.76))
+        )
+        (graphic
+          (stroke 7.87)
+          (circle (pt -783.46 125.98) (pt -775.59 125.98))
+        )
+      )
+      (leg 1 (pt -661.42 118.11) (padstack 1))
+      (leg 2 (pt -661.42 -118.11) (padstack 2))
+      (leg 3 (pt 661.42 354.33) (padstack 3))
+      (leg 4 (pt 661.42 -354.33) (padstack 4))
+      (padstack 1
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (square 59.06))
+        (pad (layer INNER) (square 59.06))
+        (pad (layer BCOP) (square 59.06))
+        (pad (layer TRES) (square 59.06))
+        (pad (layer BRES) (square 59.06))
+      )
+      (padstack 2
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 3
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+      (padstack 4
+        (hole 39)
+        (plated true)
+        (pad (layer TCOP) (round 59.06))
+        (pad (layer INNER) (round 59.06))
+        (pad (layer BCOP) (round 59.06))
+        (pad (layer TRES) (round 29.53))
+        (pad (layer BRES) (round 29.53))
+      )
+    )
+  )
+)

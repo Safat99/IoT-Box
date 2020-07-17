@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMB12A05
+D 12*9.5 Buzzers RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-TMB12A05_C96093.pdf
+$ENDCMP
+#
+#End Doc Library

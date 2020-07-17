@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_4796679"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-21-13:51:19)
+    (utime 2020-03-26-09:16:09)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "TMB12A05")
+)
+
+
+(pinAssign "ECS_4796679"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-21-13:51:19)
+    (utime 2020-03-26-09:16:09)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_4796679")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "TMB12A05")
+)
+
+
+(part "TMB12A05"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-12-21-13:51:19)
+    (utime 2020-03-26-09:16:09)
+    (packageRef "TMB12A05")
+    (pinAssignRef "ECS_4796679")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LS")
+    (property "description" "12*9.5 Buzzers RoHS")
+    (property "Manufacturer_Name" "Jiangsu Huaneng Elec")
+    (property "Manufacturer_Part_Number" "TMB12A05")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "RS_Part_Number" "")
+    (property "RS_Price/Stock" "")
+    (property "Datasheet_Link" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Huaneng-Elec-TMB12A05_C96093.pdf")
+    (property "compAreaTopHeight" 9.5)
+)
+
+

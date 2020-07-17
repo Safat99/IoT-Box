@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "G6S-2-5VDC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-12-28-11:41:42)
+    (mountForm default
+        (footprintRef "G6S25VDC")
+        (spec "System")
+    )
+)

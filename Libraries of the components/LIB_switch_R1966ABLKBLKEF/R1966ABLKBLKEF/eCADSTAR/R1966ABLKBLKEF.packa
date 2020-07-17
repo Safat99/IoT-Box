@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "R1966ABLKBLKEF"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-02-10:34:37)
+    (mountForm default
+        (footprintRef "R1966ABLKBLKEF")
+        (spec "System")
+    )
+)

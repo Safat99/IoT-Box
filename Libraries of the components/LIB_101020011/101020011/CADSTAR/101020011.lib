@@ -1,0 +1,17 @@
+.101020011 :1 ;Multiple Function Sensor Development Tools Grove - Temp&Humi Sensor
+HDRV4W80P0X254_1X4_1200X500X1550P
+*STM IC
+*NGS
+*PLB 1="VCC" 2="DATA" 3="NC" 4="GND"
+*MXP 4
+*DFN 101020011
+~!Manufacturer_Name (Seeed Studio)
+~!Manufacturer_Part_Number (101020011)
+~!Mouser Part Number (713-101020011)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=713-101020011)
+~!RS Part Number (1743237)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/1743237)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/101020011.pdf)
+~!Height (15.5mm)
+"101020011"
+1.1!U 2.1!U 3.1!U 4.1!U 
