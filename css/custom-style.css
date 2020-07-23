@@ -1,0 +1,302 @@
+.big-banner{
+	background-image: url('../Images/sand-abstract.jpg');
+	background-size: 10%;
+}
+.new-pic{
+	background-image: url('../Images/hand-light-people-girl-woman-photography-1081678-pxhere.com.jpg');
+	background-size: 10%;
+}
+
+/* .moretoggle{
+
+
+}
+ */
+ // Vars
+$color--blue-dark: #395467;
+$color--gray: #212629;
+$color--gray-dark: #26323a;
+$color--white: #fff;
+$color--green: #25cd6b;
+$color--green-light: #a7db29;
+$color--yellow: #fbe500;
+$color--red: #e23131;
+$color--orange: #ed811c;
+$unit--spacing: 20px;
+
+* { box-sizing: border-box; }
+
+body {
+  background-image: linear-gradient(140deg, $color--gray, $color--blue-dark);
+  min-height: 100vh;
+  color: $color--white;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  padding-top: $unit--spacing * 4;
+}
+
+a {
+  color: lighten($color--blue-dark, 20%);
+  text-decoration: none;
+}
+
+.color-red { stop-color: $color--red; }
+.color-yellow { stop-color: $color--yellow;}
+.color-green { stop-color: $color--green; }
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $color--gray-dark;
+  padding: $unit--spacing;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+  
+  a {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  &__title {
+    text-align: center;
+    font-size: 48px;
+  }
+}
+
+.gradient-mask { visibility: hidden; }
+
+.button {
+  position: absolute;
+  right: $unit--spacing * 2;
+  top: $unit--spacing * 2;
+  border: 2px solid $color--white;
+  background-color: $color--gray-dark;
+  color: $color--white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: $unit--spacing / 2 $unit--spacing;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s;
+  
+  &:active {
+    transform: translateY(3px);
+    outline: 0;
+  }
+  
+  &:hover,
+  &:focus {
+    outline: 0;
+    background: linear-gradient(-140deg, $color--gray, $color--blue-dark);
+  }
+}
+
+.gauge-container {
+  padding: $unit--spacing;
+  margin-top: $unit--spacing * 4;
+  display: flex;
+  justify-content: space-around;
+}
+
+.gauge {
+  height: 220px;
+  width: 300px;
+  
+  .dxg-range.dxg-background-range { fill: url(#gradientGauge); }
+  
+  .dxg-line {
+    transform: scaleX(1.04) scaleY(1.03) translate(-4px, -4px);
+
+    path:first-child,
+    path:last-child { display: none; }
+    path:nth-child(2),
+    path:nth-child(6) { stroke: $color--orange; }
+    path:nth-child(3),
+    path:nth-child(5) { stroke: $color--green-light; }
+    path:nth-child(4) { stroke: $color--green; }
+  }
+  
+  .dxg-elements {
+    text:first-child { transform: translate(19px, 13px); }
+    text:last-child { transform: translate(-27px, 14px); }
+  }
+  
+  .dxg-value-indicator {
+    path {
+      transform: scale(1.2) translate(0, -5px);
+      transform-origin: center center;
+    }
+    
+    .dxg-title {
+      text-transform: uppercase;
+      
+      text:first-child { transform: translateY(5px); }
+    }
+    
+    .dxg-spindle-border:nth-child(4),
+    .dxg-spindle-hole:nth-child(5){ transform: translate(0, -109px); }
+    .dxg-spindle-hole { fill: $color--gray-dark; }
+  }
+}
+
+/* ////////// circular progress*/
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+/* / */laj     avpj
