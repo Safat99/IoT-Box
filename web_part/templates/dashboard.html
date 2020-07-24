@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JNKKKK/MoreToggles.css@0.2.1/output/moretoggles.min.css">
 
-    <link rel="stylesheet" href="../css/custom-style.css">
+    <link rel="stylesheet" href="../static/custom-style.css">
 
 
 
@@ -58,10 +58,29 @@
         </div> 
       </nav> 
 
-      <div class="container-fluid"> <!--card shueu-->
+      <div class="container">
+        <div class="jumbotron">
+          <h2> Temperature and Humidity Sensors </h2>
+          
+          <br>
+          <h4>Temperature<h4>
+          <div class="progress mb-2 mt-2">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ temperature }}"aria-valuenow="20" ariavlauemin="0" aria-valuemax="100" >
+              {{ temperature }}
+            </div>
+          </div>
+          <h4>Humidity<h4>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: {{ humidity }}" aria-valuenow="20" ariavlauemin="0" aria-valuemax="100">{{ humidity }}</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container-fluid"> <!--card shuru-->
         <div class="row">
       <!-- style="width:1000px" -->
-          <div class="col-md-3">
+          <div class="col-md-3 col-xl mb-2">
             <div class="card text-center">
               <div class="card-body">
                 <h3 class="card-title">Relay 1</h5>
@@ -129,26 +148,19 @@
      
       </div><!--eita card er ending-->
 
-      <input type="checkbox" checked data-toggle="toggle">
+      <!-- <input type="checkbox" checked data-toggle="toggle">
 
-      <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary">
+      <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary"> -->
       <!-- <input type="checkbox" checked data-toggle="toggle" data-onstyle="success"> -->
 
-      <div class="btn-group-toggle" data-toggle="buttons">
+      <div class="btn-group-toggle mt-2 mb-2" data-toggle="buttons">
         <label class="btn btn-secondary active">
           <input type="checkbox" checked autocomplete="off"> Checked
         </label>
       </div>
 
-      <br>
-      <br>
-      <div class="switch">
-  <label>
-    Off
-    <input type="checkbox">
-    <span class="lever"></span> On
-  </label>
-</div>
+
+
 
     </div>  <!--eita image er ending-->
 
