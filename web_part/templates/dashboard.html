@@ -12,15 +12,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JNKKKK/MoreToggles.css@0.2.1/output/moretoggles.min.css">
 
     <link rel="stylesheet" href="../static/custom-style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/octicons/8.5.0/build.css">
+    <link rel="shortcut icon" href="#" />
+    <link rel="shortcut icon" type="image/x-icon" href="../static/Images/plug.svg">
 
-
-
-	<title>dashboard.html</title>
   </head>
   <body>
-    
-
-
+      
     <!-- <div  class="jumbotron big-banner"> -->
       <div  class="jumbotron new-pic">
     <!-- navbar -->
@@ -65,13 +63,13 @@
           <br>
           <h4>Temperature<h4>
           <div class="progress mb-2 mt-2">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ temperature }}"aria-valuenow="20" ariavlauemin="0" aria-valuemax="100" >
-              {{ temperature }}
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ temperature }}%"aria-valuenow="20" ariavlauemin="0" aria-valuemax="100" >
+              {{ temperature }}°C
             </div>
           </div>
           <h4>Humidity<h4>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: {{ humidity }}" aria-valuenow="20" ariavlauemin="0" aria-valuemax="100">{{ humidity }}</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: {{ humidity }}%" aria-valuenow="20" ariavlauemin="0" aria-valuemax="100">{{ humidity }}%</div>
           </div>
 
         </div>
