@@ -63,38 +63,38 @@
           <br>
           <h4>Temperature<h4>
           <div class="progress mb-2 mt-2">
-            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ temperature }}%"aria-valuenow="20" ariavlauemin="0" aria-valuemax="100" >
+            <div class="progress-bar bg-danger" role="progressbar" style="width: {{ temperature }}%"aria-valuenow="20" ariavaluemin="0" aria-valuemax="100" >
               {{ temperature }}°C
             </div>
           </div>
           <h4>Humidity<h4>
           <div class="progress">
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: {{ humidity }}%" aria-valuenow="20" ariavlauemin="0" aria-valuemax="100">{{ humidity }}%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" style="width: {{ humidity }}%" aria-valuenow="20" ariavaluemin="0" aria-valuemax="100">{{ humidity }}%</div>
           </div>
-
         </div>
       </div>
 
+    <form method="POST" action="/">
       <div class="container-fluid"> <!--card shuru-->
         <div class="row">
       <!-- style="width:1000px" -->
-          <div class="col-md-3 col-xl mb-2">
+          <div class="col-md-3 mb-2">
             <div class="card text-center">
               <div class="card-body">
-                <h3 class="card-title">Relay 1</h5>
+                <h3 class="card-title">Relay 1</h3>
                 <p class="card-subtitle">This is the card subtitle</p>
                 <p class="card-text">...</p>
                 <!-- <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a> -->
                 <div class="mt-ios small container"> 
-                  <input id="1" type="checkbox" >
+                  <input id="1" class="custom-radio" type="checkbox" value="1" name="Relay1" >
                   <label for="1"></label>
                 </div>
               </div>
             </div>
           </div>
           
-          <div class="col-md-3">
+          <div class="col-md-3  mb-2">
             <div class="card bg-danger text-center" >
               <div class="card-body">
                 <h3 class="card-title">Relay 2 </h3>
@@ -104,39 +104,39 @@
                 <!-- <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a> -->
                 <div class="mt-ios-red small"> 
-                  <input id="2" type="checkbox" >
+                  <input id="2" class="form-control" type="checkbox" value="2" name="Relay2" >
                   <label for="2"></label>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 mb-2">
             <div class="card bg-success text-center">
               <div class="card-body">
-                <h3 class="card-title">Relay 3</h5>
+                <h3 class="card-title">Relay 3</h3>
                 <p class="card-subtitle">This is the card subtitle</p>
                 <p class="card-text">...</p>
                 <!-- <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a> -->
                 <div class="mt-ios small"> 
-                  <input id="3" type="checkbox" />
+                  <input id="3" class="form-control" type="checkbox" value="3" name="Relay3" />
                   <label for="3"></label>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3  mb-2">
             <div class="card bg-warning text-center">
               <div class="card-body">
-                <h3 class="card-title">Relay 4</h5>
+                <h3 class="card-title">Relay 4</h3>
                 <p class="card-subtitle">This is the card subtitle</p>
                 <p class="card-text">...</p>
                 <!-- <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a> -->
                 <div class="mt-ios small"> 
-                  <input id="4" type="checkbox" />
+                  <input id="4" class="form-control" type="checkbox" value="4" name="Relay4" />
                   <label for="4"></label>
                 </div>
               </div>
@@ -151,12 +151,12 @@
       <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary"> -->
       <!-- <input type="checkbox" checked data-toggle="toggle" data-onstyle="success"> -->
 
-      <div class="btn-group-toggle mt-2 mb-2" data-toggle="buttons">
+      <div class="btn-group-toggle form-group mt-2 mb-2" data-toggle="buttons">
         <label class="btn btn-secondary active">
-          <input type="checkbox" checked autocomplete="off"> Checked
+          <input type="submit" checked autocomplete="on"> Checked
         </label>
       </div>
-
+    </form>
 
 
 
