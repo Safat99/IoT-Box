@@ -78,6 +78,7 @@
       <div class="container-fluid"> <!--card shuru-->
         <div class="row">
       <!-- style="width:1000px" -->
+         {% if relay1 == '1' %}
           <div class="col-md-3 mb-2">
             <div class="card text-center">
               <div class="card-body">
@@ -87,13 +88,50 @@
                 <!-- <a href="#" class="card-link">Card link</a>
                 <a href="#" class="card-link">Another link</a> -->
                 <div class="mt-ios small container"> 
-                  <input id="1" class="custom-radio" type="checkbox" value="1" name="Relay1" >
+                  <input id="1"  type="checkbox" value="1" name="Relay1" checked>
                   <label for="1"></label>
                 </div>
               </div>
             </div>
           </div>
+
+          {% else %}
+          <div class="col-md-3 mb-2">
+            <div class="card text-center">
+              <div class="card-body">
+                <h3 class="card-title">Relay 1</h3>
+                <p class="card-subtitle">This is the card subtitle</p>
+                <p class="card-text">...</p>
+                <!-- <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+                <div class="mt-ios small container"> 
+                  <input id="1"  type="checkbox" value="1" name="Relay1" >
+                  <label for="1"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
           
+          {% if relay2 == '2' %}
+          <div class="col-md-3  mb-2">
+            <div class="card bg-danger text-center" >
+              <div class="card-body">
+                <h3 class="card-title">Relay 2 </h3>
+                <p class="card-subtitle">press here to turn on and off</p>
+                
+                <p class="card-text">...</p>
+                <!-- <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+                <div class="mt-ios-red small"> 
+                  <input id="2" class="form-control" type="checkbox" value="2" name="Relay2" checked>
+                  <label for="2"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {% else %}
           <div class="col-md-3  mb-2">
             <div class="card bg-danger text-center" >
               <div class="card-body">
@@ -110,7 +148,26 @@
               </div>
             </div>
           </div>
+          {% endif %}          
 
+          {% if relay3 == '3' %}
+          <div class="col-md-3 mb-2">
+            <div class="card bg-success text-center">
+              <div class="card-body">
+                <h3 class="card-title">Relay 3</h3>
+                <p class="card-subtitle">This is the card subtitle</p>
+                <p class="card-text">...</p>
+                <!-- <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+                <div class="mt-ios small"> 
+                  <input id="3" class="form-control" type="checkbox" value="3" name="Relay3" checked />
+                  <label for="3"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {% else %}
           <div class="col-md-3 mb-2">
             <div class="card bg-success text-center">
               <div class="card-body">
@@ -126,8 +183,27 @@
               </div>
             </div>
           </div>
+          {% endif %}
 
+          {% if relay4 == '4' %}
           <div class="col-md-3  mb-2">
+            <div class="card bg-warning text-center">
+              <div class="card-body">
+                <h3 class="card-title">Relay 4</h3>
+                <p class="card-subtitle">This is the card subtitle</p>
+                <p class="card-text">...</p>
+                <!-- <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a> -->
+                <div class="mt-ios small"> 
+                  <input id="4" class="form-control" type="checkbox" value="4" name="Relay4" checked />
+                  <label for="4"></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="col-md-3  mb-2">
             <div class="card bg-warning text-center">
               <div class="card-body">
                 <h3 class="card-title">Relay 4</h3>
@@ -143,6 +219,7 @@
             </div>
           </div>
         </div>
+        {% endif %}
      
       </div><!--eita card er ending-->
 
