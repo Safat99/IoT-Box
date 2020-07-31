@@ -19,13 +19,12 @@ def dashboard():
 		relay3=requests.get('Relay3')
 		relay4=requests.get('Relay4')
 
-		'''for showing values>>then upper lines have to commented	
+		# for showing values>>then upper lines have to commented	
 		print(request.form.get('Relay1'))
 		print(request.form.get('Relay2'))
 		print(request.form.get('Relay3'))
 		print(request.form.get('Relay4'))
-		'''
-
+		# '''
 
 
 		'''if requests['Relay1']==None:
@@ -37,7 +36,7 @@ def dashboard():
 		# print(request.form['Relay4'])
 		return render_template('dashboard.html',relay1=relay1,relay2=relay2,relay3=relay3,relay4=relay4,temperature =40, humidity = 90)
 
-	return render_template('dashboard.html',temperature =40, humidity = 90)
+	return render_template('dashboard.html',temperature =100, humidity = 90)
 
 @app.route("/test.html",methods=['GET','POST'])
 def test():
