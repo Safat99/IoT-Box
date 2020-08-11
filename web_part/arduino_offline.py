@@ -1,3 +1,5 @@
+#this is a sample code for testing arduino pin by python....took help from a site..
+
 from pyfirmata2 import Arduino
 from time import sleep
 board = Arduino(Arduino.AUTODETECT)
