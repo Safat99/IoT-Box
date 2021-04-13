@@ -24,20 +24,20 @@
 <body>
 
   <!-- <div  class="jumbotron big-banner"> -->
-  <div class="jumbotron new-pic">
+  <div class="jumbotron new-pic" style=>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md bg-dark fixed-top">
       <div class="container-fluid">
         <!-- style="background-color: #e3f2fd;" -->
 
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#" style="color: #fff;">IOT-BOX</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar"
           aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="mainNavbar">
-          <ul class="nav nav-pills nav-justified">
+          <!-- <ul class="nav nav-pills nav-justified">
             <li>
               <a class="nav-link" href="base.html">Home</a>
             </li>
@@ -56,16 +56,16 @@
             <li>
               <a class="nav-link " href="#menu3" data-toggle="pill">Link 3</a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </nav>
 
     <div id="app">
-      <div class="container" >
+      <div class="container">
         <div class="jumbotron">
           <h2> Temperature and Humidity Sensors </h2>
-  
+
           <br>
           <h4>Temperature<h4>
               <div class="progress mb-2 mt-2">
@@ -75,7 +75,7 @@
                 </div>
               </div>
               <h4>Humidity<h4>
-  
+
                   <div class="progress">
                     <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar"
                       :style="{width: humidity + '%'}" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
@@ -84,12 +84,12 @@
                   </div>
         </div>
       </div>
-  
+
       <div class="container-fluid">
         <!--card shuru-->
         <div class="row">
           <!-- style="width:1000px" -->
-  
+
           <div class="col-md-3 mb-2">
             <div class="card text-center">
               <div class="card-body">
@@ -105,13 +105,13 @@
               </div>
             </div>
           </div>
-  
+
           <div class="col-md-3  mb-2">
             <div class="card bg-danger text-center">
               <div class="card-body">
                 <h3 class="card-title">Relay 2 </h3>
                 <p class="card-subtitle">press here to turn on and off</p>
-  
+
                 <p class="card-text">...</p>
                 <!-- <a href="#" class="card-link">Card link</a>
                   <a href="#" class="card-link">Another link</a> -->
@@ -122,7 +122,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="col-md-3 mb-2">
             <div class="card bg-success text-center">
               <div class="card-body">
@@ -138,7 +138,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="col-md-3  mb-2">
             <div class="card bg-warning text-center">
               <div class="card-body">
@@ -155,10 +155,10 @@
             </div>
           </div>
         </div>
-  
+
       </div>
       <!--eita card er ending-->
-  
+
       <div class="btn-group-toggle form-group mt-2 mb-2" data-toggle="buttons">
         <label class="btn btn-secondary active">
           <button class="btn btn-secondary" @click="saveRelayData()">
@@ -187,6 +187,11 @@
     crossorigin="anonymous"></script>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
 
   <script src="./index.js" type="text/javaScript"></script>
 </body>
