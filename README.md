@@ -1,6 +1,7 @@
 # IoT-Box
 NodeMCU-ESP8266 with and without Flask based IoT box by which I am controlling by room's AC line's light fan from Internet and update from temperature,humidity,motion sensors
 
+Check about the published conference paper [here](https://www.researchgate.net/publication/354860121_157-P-4_Development_and_Optimization_of_a_Real-time_Server-based_IoT_Box_A_Smart_Home_Automation_System_and_its_Subsequent_Fabrication)
 
 ## Components
 * ESP8266 NodeMCU
