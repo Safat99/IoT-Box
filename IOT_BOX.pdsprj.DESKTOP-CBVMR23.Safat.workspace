@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="1">
-  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffff64010000180000008007000006040000</PLACEMENT>
+  <PLACEMENT>2c0000000200000003000000ffffffffffffffffffffffffffffffff64010000180000008007000006040000</PLACEMENT>
   <WINDOW type="default" module="ISIS"/>
   <WINDOW type="default" module="ARES"/>
   <WINDOW type="package" module="LIBMAN"/>
   <WINDOW type="VIEW3D" module="VIEW3D">
    <camera>
-    <position x="-1478274" y="-6440812" z="9850775"/>
-    <focus x="344798" y="-179272" z="11472"/>
-    <up x="122165" y="826928" z="548876"/>
+    <position x="365060" y="-8550098" z="8346898"/>
+    <focus x="365060" y="-203200" z="0"/>
+    <up x="0" y="707106" z="707106"/>
    </camera>
   </WINDOW>
  </FRAME>
