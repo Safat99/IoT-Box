@@ -51,7 +51,8 @@ NodeMCU-ESP8266 with and without Flask based IoT box by which I am controlling b
 * app-dashboard
 
     ![app](mobile_app_ss.png)
-    created using MIT App Inventor
+
+  created using MIT App Inventor
 
 
 ## Final Working Output
